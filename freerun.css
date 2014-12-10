@@ -1,0 +1,256 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ACTUAL CODE STARTS HERE */
+
+* {
+	box-sizing: border-box;
+}
+.top-sect {
+	height: 809px;
+	background-image: url(banner-bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+.pa {
+	font-size: 103px;
+	color: #D0021B;
+	font-family: Impact;
+	font-weight: 600;
+	padding-top: 88px;
+}
+.park {
+	color: #4A4A4A;
+}
+.video {
+	padding-top: 72px;
+	padding-bottom: 85px;
+}
+.button {
+	font-family: Impact;
+	font-size: 29px;
+	color: #400007;
+	text-shadow: 0px 1px #DE001A;
+	background-color: #930012;
+	text-decoration: none;
+	padding: 10px 78px 10px;
+	border-top: 1px solid #D0021B;
+	border-bottom: 1px solid rgba(0, 0, 0, .61);
+}
+.stripe {
+	height: 20px;
+	background-image: url(Stripe.png);
+	background-repeat: repeat-x;
+	margin-bottom: 45px;
+}
+.middle-sect {
+	background: #333333;
+}
+.container {
+	width: 944px;
+	margin: 0 auto;
+	background: #333333;
+
+}
+.pair {
+	position: relative;
+	padding-bottom: 120px;
+	padding-top: 75px;
+	border-bottom: 1px solid #1A1A1A;
+}
+.and-bottom {
+	border-bottom: 1px solid black;
+}
+.text {
+	width: 460px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+.heads {
+	position: relative;
+	font-family: Impact;
+	font-size: 52px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.heads:before {
+	position: absolute;
+	left: -2px;
+	top: 65px;
+	content:'';
+	width: 30px;
+	height: 6px;
+	background-color: #D0021B;
+}
+.heads-right {
+	position: relative;
+	font-family: Impact;
+	font-size: 52px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.heads-right:after {
+	position: absolute;
+	right: 5px;
+	top: 65px;
+	content:'';
+	width: 30px;
+	height: 6px;
+	background-color: #D0021B;
+
+}
+.paras {
+	font-family: 'Helvetica Neue';
+	font-weight: 300;
+	font-size: 18px;
+	color: #E6E6E6;
+	line-height: 32px;
+	padding-top: 30px;
+}
+.photo {
+	padding-top: 18px;
+	display: inline-block;
+}
+.top-line {
+	border-top: 1px solid #4A4A4A;
+}
+.second {
+	position: absolute;
+	right: 15px;
+}
+.right {
+	text-align: right;
+	padding-right: 10px;
+}
+.space {
+	padding-top: 100px;
+	border-bottom: none;
+}
+.more {
+	padding-top: 140px;
+	padding-left: 90px;
+}
+.get-involved {
+	background: #757575;
+}
+.information {
+	width: 944px;
+	margin: 0 auto;
+	text-align: center;
+}
+.bottom-one {
+	width: 270px;
+	margin: 0 auto;
+}
+
+.heads-last {
+	position: relative;
+	font-family: Impact;
+	font-size: 52px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.heads-last:before {
+	position: absolute;
+	left: 120px;
+	top: 65px;
+	content:'';
+	width: 30px;
+	height: 6px;
+	background-color: #D0021B;
+}
+
+.last {
+	width: 460px;
+	height: 100px;
+	margin: 0 auto;
+}
+.single-input {
+	padding-top: 60px;
+	width: 500px;
+	margin-left: 255px;
+	position: relative;
+}
+.email {
+	padding-left: 38px;
+	width: 460px;
+	height: 53px;
+	background-color: #4A4A4A;
+	color: #9D9D9D;
+	font-size: 23px;
+	border: none;
+	box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .5);
+	display: block;
+	margin-bottom: 28px;
+}
+i {
+	position: absolute;
+	left: 13px;
+	top: 80px;
+	font-size: 23px;
+	color: #757575;
+}
+.very-end {
+	display: block;
+	width: 246px;
+	height: 53px;
+	padding: 0;
+	padding-top: 12px;
+}
+.break {
+	padding-top: 94px;
+	padding-bottom: 140px;
+}
+.lining {
+	border-top: 1px solid #CDCDCD
+}
+
+
+

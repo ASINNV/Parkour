@@ -1,0 +1,11 @@
+# _WRITE-UP - Parkour Site_
+
+## THOUGHTS
+
+This project went quite quickly. It made use of more pseudo classes and forms. I also used background-repeat: repeat-x; for the first time which was cool to see how that worked. The site matches the mockup nearly perfectly and I am proud to say that I figured out, with the help of my brother, the best way to stagger elements in the future. However, I found that out late in the project and didn't feel like recoding a bunch of stuff so I left it as it was and in the end, it made the code much messier. If this weren't the first iteration of the project or if I needed it to be coded well right now, I would have changed it, redone most of the website, and implemented the new organization. This is not the case though so for now, this will do. 
+
+I love how quickly the speed at which I can code up a website is increasing. Today I finished within six hours tops, and there was definitely some wasted, superfluous time. With, say, under 10 more projects under my belt, I should be coding front-end site layouts such as these within an hour or two. I look forward to learning more about the back-end as well as JavaScript but I really do think it wise to grind and pound in these skills first. It will allow me to think of other things, such as solving code problems and figuring out efficient ways to function a web page, while I code the shit out of the stylistic side of projects.
+
+## ALL-IN-ALL
+
+It went very well. I had fun. I learned some stuff. New Knowledge was cemented and my love for code was reinforced. With every passing project I gain a sight for what is necessary and unnecessary, for more general ways of dealing with elements (such as grouping), and for what I would like to implement in my own designs in the future. It all helps and it all pays off, something to remember.
